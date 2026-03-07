@@ -21,9 +21,9 @@ npm run dev
 
 ```bash
 cd backend
-# 권장: 가상 환경 생성
+# 가상 환경 생성 및 라이브러리 설치
 python -m venv venv
-./venv/Scripts/activate  # Windows
+.\venv\Scripts\activate  # Windows (또는 source venv/bin/activate - Linux/Mac)
 pip install -r requirements.txt
 python app.py
 ```
